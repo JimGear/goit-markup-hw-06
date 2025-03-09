@@ -940,6 +940,7 @@ address {
     .footer-container {
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         align-items: baseline;
         width: 1158px;
         margin-left: 156px;
@@ -966,6 +967,7 @@ address {
 
 @media screen and (min-width:1440px) {
     .footer-info-box {
+        width: 264px;
         margin-right: 120px;
     }
 }
@@ -984,7 +986,7 @@ address {
 
 @media screen and (min-width:1440px) {
     .footer-social-box {
-        margin-right: 120px;
+        margin-right: 80px;
     }
 }
 
@@ -1186,6 +1188,12 @@ address {
     width: 100%;
 }
 
+@media screen and (min-width:1440px) {
+    .footer-form-box {
+        width: 453px;
+    }
+}
+
 .footer-input-email {
     box-sizing: border-box;
     background-color: transparent;
@@ -1268,6 +1276,8 @@ address {
 
 @media screen and (min-width:1440px) {
     .footer-form-text {
+        text-align: start;
+        margin-top: 0px;
         margin-bottom: 16px;
         font-weight: 500;
         font-size: 16px;
@@ -1292,6 +1302,7 @@ address {
         gap: 24px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 }
 
